@@ -728,7 +728,7 @@ ul {
   font-size: 2rem;
   color: var(--text-color);
   border-radius: 5rem;
-  background: var(--bg-color);
+  background: transparent;
   border: 2px solid var(--white-color);
   -webkit-box-shadow: 0 0.1rem 1.5rem var(--shadow-color);
   box-shadow: 0 0.1rem 1.5rem var(--shadow-color);
