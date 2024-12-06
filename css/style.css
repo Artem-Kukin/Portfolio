@@ -134,7 +134,7 @@ section {
   font-size: 2rem;
   line-height: 2.5rem;
   text-align: justify;
-  font-family: "Jura-b";
+  font-family: "Jura-b", sans-serif;
 }
 
 .home-content p a {
@@ -421,7 +421,7 @@ span {
   text-align: justify;
   margin: 2rem 0;
   text-indent: 2rem;
-  font-family: "Jura-b";
+  font-family: "Jura-b", sans-serif;
   line-height: 1.2;
 }
 .service {
@@ -485,7 +485,7 @@ span {
   font-size: 2rem;
   line-height: 3.5rem;
   text-align: justify;
-  font-family: "Jura-m";
+  font-family: "Jura-m", sans-serif;
 }
 
 ul {
