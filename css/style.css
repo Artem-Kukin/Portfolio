@@ -606,7 +606,7 @@ ul {
 .portfolio-item h4,
 .portfolio-item a {
   position: absolute;
-  left: 3rem;
+  left: 4rem;
   color: var(--white-color);
   -webkit-transition: all var(--animation);
   -o-transition: all var(--animation);
@@ -619,8 +619,11 @@ ul {
   font-size: 3rem;
 }
 .portfolio-item a {
+  border-radius: 5rem;
+  padding: 1.5rem;
   bottom: 0;
   font-size: 2rem;
+  text-align: center
 }
 
 .portfolio-item .portfolio-photo {
@@ -642,6 +645,7 @@ ul {
   transition: -webkit-transform 8s ease, -webkit-filter 2s ease;
   -o-transition: transform 8s ease, filter 2s ease;
   transition: transform 8s ease, filter 2s ease;
+  transition: transform 8s ease, filter 2s ease, -webkit-transform 8s ease, -webkit-filter 2s ease;
   transition: transform 8s ease, filter 2s ease, -webkit-transform 8s ease,
     -webkit-filter 2s ease;
   transition: transform 8s ease, filter 2s ease, -webkit-transform 8s ease,
@@ -665,11 +669,10 @@ ul {
   background: #fdfdfd9e;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  border-radius: 5rem;
-  padding: 1.5rem;
-  -ms-transform: translate(-50%, -15%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+      transform: translateY(-10%);
 }
 
 .portfolio-layer p {
@@ -972,6 +975,9 @@ ul {
 @media (max-width: 650px) {
   .portfolio-item h4 {
     display: none;
+  }
+  .portfolio-item a {
+    left: 0;
   }
 
   #menu-icon {
