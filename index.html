@@ -33,7 +33,43 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
     <style>
-@font-face { font-family: Jura-b; src: url(./fonts/Jura-Bold.ttf); } @font-face { font-family: Jura-l; src: url(./fonts/Jura-Light.ttf); } @font-face { font-family: Jura-m; src: url(./fonts/Jura-Medium.ttf); } @font-face { font-family: Jura-r; src: url(./fonts/Jura-Regular.ttf); } :root { --bg-color: #fdfdfd; --text-color: #333; --main-color: #754ef9; --white-color: #fdfdfd; --shadow-color: rgba(0, 0, 0, .2); --animation-speed: 0.3s; --animation-func: ease; --animation: var(--animation-speed) var(--animation-func); } .dark-mode { --bg-color: #0b061f; --text-color: #fdfdfd; --shadow-color: rgba(0, 0, 0, 0.7); }    </style>
+        @font-face {
+            font-family: Jura-b;
+            src: url(./fonts/Jura-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: Jura-l;
+            src: url(./fonts/Jura-Light.ttf);
+        }
+
+        @font-face {
+            font-family: Jura-m;
+            src: url(./fonts/Jura-Medium.ttf);
+        }
+
+        @font-face {
+            font-family: Jura-r;
+            src: url(./fonts/Jura-Regular.ttf);
+        }
+
+        :root {
+            --bg-color: #fdfdfd;
+            --text-color: #333;
+            --main-color: #754ef9;
+            --white-color: #fdfdfd;
+            --shadow-color: rgba(0, 0, 0, .2);
+            --animation-speed: 0.3s;
+            --animation-func: ease;
+            --animation: var(--animation-speed) var(--animation-func);
+        }
+
+        .dark-mode {
+            --bg-color: #0b061f;
+            --text-color: #fdfdfd;
+            --shadow-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
 </head>
 
 <body>
@@ -267,6 +303,26 @@
         </div>
         <div class="portfolio-container">
 
+            <div class="portfolio-item">
+                <div class="portfolio-photo">
+                    <img src="./images/projects/desire.png" alt="#">
+                    <h4>Desire</h4>
+                    <a href="https://artem-kukin.github.io/Desire/" target="_blank"><i
+                            class='bx bx-link-external'></i>Get
+                        acquainted with the project</a>
+                </div>
+                <div class="portfolio-layer">
+                    <p>Многостраничный, адаптивный сайт (5 страниц). HTML и SCSS поделены на модули, с помощью Gulp и
+                        Gulp-зависимостей модули собираются в единый, отформатированый файл. SVG помещены в общий спрайт и
+                        предоставляют доступ к настройкам их свойств используя CSS. HTML- разметка составлена по БЭМ. В
+                        разработке использовался jQuery,
+                        для проницательного доступа к селекторам и их CSS свойствам. Footer прижат к низу даже без
+                        контента. Изображения имеют адаптивные свойства и с легкостью подстраиваются под различные
+                        экраны, сохраняя свои пропорции.
+                    </p>
+
+                </div>
+            </div>
             <div class="portfolio-item">
                 <div class="portfolio-photo">
                     <img src="./images/projects/the-art-of-arita.png" alt="#">
